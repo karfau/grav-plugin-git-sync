@@ -1,11 +1,12 @@
 ### Attention: 
 
-#### Patched version that uses `user/pages` as path for the repo
+#### This repositori/branch is modified to use `user/pages` as path for the repo
 
-I only tested it with my setup so far, without using the wizard  
-**there might still be cases where it desn't work!**  
+I only tested it with my setup so far
+I always made changes to `user/pages/.git/config` to fit to my needs  
+**there might still be cases where it doesn't work!**  
 **USE AT YOUR OWN RISK!**
-Contributions to imrove it are welcome.
+Contributions to improve it are welcome.
 
 #### End of modified `README.md`
 
