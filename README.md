@@ -1,3 +1,15 @@
+### Attention: 
+
+#### Patched version that uses `user/pages` as path for the repo
+
+I only tested it with my setup so far, without using the wizard  
+**there might still be cases where it desn't work!**  
+**USE AT YOUR OWN RISK!**
+Contributions to imrove it are welcome.
+
+#### End of modified `README.md`
+
+
 ![](images/gitsync-logo.png)
 
 **Git Sync** is a Plugin for [Grav CMS](http://github.com/getgrav/grav) that allows to seamlessly synchronize a Git repository with your Grav site, and vice-versa. 
