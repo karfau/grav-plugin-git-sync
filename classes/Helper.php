@@ -17,7 +17,7 @@ class Helper {
      */
     public static function isGitInitialized()
     {
-        return file_exists(rtrim(USER_DIR, '/') . '/.git');
+        return file_exists(rtrim(PAGES_DIR, '/') . '/.git');
     }
 
     public static function isGitInstalled($version = false)
