@@ -66,7 +66,7 @@ EOF
         $this->console_header('detect git workspace root:');
         $git_root = $plugin->execute('rev-parse --show-toplevel');
         $this->console_log($git_root, '');
-        if (rtrim($info['repositoryPath'], '/') !== rtrim($git_root[0], '/')) {
+        if (rtrim($info['repositoryPath']) !== $git_root[0]) {
             throw new RuntimeException('git root and repositoryPath do not match', 50);
         }
 
@@ -134,7 +134,7 @@ EOF
     private function console_header($readable, $cmd = '', $remote_action = false)
     {
         $this->output->writeln(
-            "<yellow>$readable</yellow>" . ($cmd ? "(<info>$cmd</info>)" : ''). ($remote_action ? '...' : '')
+            "<yellow>$readable</yellow>" . ($cmd ? "(<blue>$cmd</blue>)" : ''). ($remote_action ? '...' : '')
         );
     }
 
