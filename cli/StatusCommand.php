@@ -134,7 +134,7 @@ EOF
     private function console_header($readable, $cmd = '', $remote_action = false)
     {
         $this->output->writeln(
-            "<yellow>$readable</yellow>" . ($cmd ? "(<blue>$cmd</blue>)" : ''). ($remote_action ? '...' : '')
+            "<yellow>$readable</yellow>" . ($cmd ? "(<info>$cmd</info>)" : ''). ($remote_action ? '...' : '')
         );
     }
 
