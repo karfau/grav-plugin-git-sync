@@ -1,4 +1,8 @@
 ### Attention: 
+#### No longer maintained!
+I stoped using this plugin in my grav installation.
+I'm using shell scripts and cron jobs instead.
+I'm not going to maintain this repo, feel free to fork an maintain at your own.
 
 #### This repositori/branch is modified to use `user/pages` as path for the repo
 
@@ -6,7 +10,6 @@ I only tested it with my setup so far
 I always made changes to `user/pages/.git/config` to fit to my needs  
 **there might still be cases where it doesn't work!**  
 **USE AT YOUR OWN RISK!**
-Contributions to improve it are welcome.
 
 #### End of modified `README.md`
 
